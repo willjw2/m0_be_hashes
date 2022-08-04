@@ -104,3 +104,27 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+email_2 = [
+  {
+    "sender": "Alienspecies@wmail.com",
+    "sender_name": "Ratman",
+    "subject": "Money Laundering Tips",
+    "date": "06/04/2022",
+    "time": "11:30"
+  },
+  {
+    "sender": "mondo_longwell@wmail,com",
+    "sender_name": "Mondo",
+    "subject": "cat music",
+    "date": "06/01/2022",
+    "time": "20:30"
+  },
+  {
+    "sender": "leffen@wmail.com",
+    "sender_name": "William",
+    "subject": "BIG LEFF",
+    "date": "04/04/2022",
+    "time": "03:00"
+  }
+]
+p email_2
