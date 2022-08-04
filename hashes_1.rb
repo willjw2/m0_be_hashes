@@ -37,18 +37,24 @@ p foods
 
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
-
+email = {
+  "sender": "Alienspecies@wmail.com",
+  "sender_name": "Ratman",
+  "subject": "Money Laundering Tips",
+  "date": "06/04/2022",
+  "time": "11:30"
+}
 # Write code that prints your email hash to the terminal.
-
+p email
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
 # YOUR CODE HERE
-
+p email.keys
 # Write code that prints all of the 'values' of the email hash
 # you created above:
 # YOUR CODE HERE
-
+p email.values
 
 #-------------------
 # Part 3: Many Emails - CHALLENGE!
